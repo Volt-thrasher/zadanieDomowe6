@@ -10,6 +10,7 @@ public class SumTable {
             numbers[i] = keyboard.nextInt();
             keyboard.nextLine();
         }
+        keyboard.close();
         System.out.println(numbers[0] + numbers[2] + numbers[4]);
     }
 }

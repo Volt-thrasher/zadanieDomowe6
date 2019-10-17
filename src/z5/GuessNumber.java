@@ -11,10 +11,8 @@ public class GuessNumber {
             input.nextLine();
             if (number < 100) {
                 System.out.println("Liczba jest za mala");
-                continue;
             } else if (number > 200) {
                 System.out.println("Liczba jest za duza");
-                continue;
             } else if (number % 3 != 0) {
                 System.out.println("Liczba jest niepodzielna przez 3");
             }
